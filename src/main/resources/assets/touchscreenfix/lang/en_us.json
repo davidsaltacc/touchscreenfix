@@ -1,0 +1,13 @@
+{
+    "button.touchscreenfix.enable": "Enable Enhanced Touchscreen",
+
+    "button.touchscreenfix.config": "Touchscreen Settings...",
+    "button.touchscreenfix.config.return": "Back",
+
+    "button.touchscreenfix.config.invert_x": "Invert X",
+    "button.touchscreenfix.config.invert_y": "Invert Y",
+    "button.touchscreenfix.config.show_onscreen_controls": "Show Onscreen Controls",
+    "button.touchscreenfix.config.enable_onscreen_controls": "Enable Onscreen Controls",
+
+    "screen.touchscreenfix.config": "TouchscreenFix Config"
+}

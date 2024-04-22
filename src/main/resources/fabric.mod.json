@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "touchscreenfix",
+	"version": "${version}",
+	"name": "TouchscreenFix",
+	"description": "try to fix the screen going absolute nuts when you tap your touchscreen with your finger or pen, aswell as adding some touchscreen utilities",
+	"authors": [
+		"discord/@justacoder"
+	],
+	"contact": {
+		"homepage": "https://davidsaltacc.github.io"
+	},
+	"license": "MIT",
+	"icon": "assets/touchscreenfix/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"net.justacoder.touchscreenfix.TouchscreenFix"
+		]
+	},
+	"mixins": [
+		"touchscreenfix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	}
+}

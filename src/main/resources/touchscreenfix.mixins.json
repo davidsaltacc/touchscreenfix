@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "net.justacoder.touchscreenfix.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "client": [
+        "InGameHudMixin",
+        "MouseMixin",
+        "OptionsScreenMixin",
+        "SplashTextResourceSupplierMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+	}
+}
